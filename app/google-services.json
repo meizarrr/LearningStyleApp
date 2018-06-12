@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "654504843682",
+    "firebase_url": "https://learning-style.firebaseio.com",
+    "project_id": "learning-style",
+    "storage_bucket": "learning-style.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654504843682:android:5e53e3aedf7387c0",
+        "android_client_info": {
+          "package_name": "com.example.meizar.learningstyleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654504843682-bkb3ce36g9nhrb74tu8victc7bk5de6p.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "654504843682-bkb3ce36g9nhrb74tu8victc7bk5de6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDntd3eV9lqdA6IlDYIRzQSegCg3DFm4SY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.meizar.learningstyleapp.ResultActivity">
+
+    <TextView
+        android:id="@+id/vText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visual" />
+
+    <TextView
+        android:id="@+id/aText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aural" />
+
+    <TextView
+        android:id="@+id/rText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read/Write" />
+
+    <TextView
+        android:id="@+id/kText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kinesthetic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/usageStatsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
